@@ -1,10 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Download InterLSK Inventory</title>
+  <meta charset="UTF-8">
+  <title>InterLSK Inventory</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #f4f6f8;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .container {
+      background: #ffffff;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 500px;
+    }
+
+    h1 {
+      color: #333333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #666666;
+      font-size: 16px;
+    }
+
+    .download-button {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 12px 24px;
+      background-color: #007BFF;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .download-button:hover {
+      background-color: #0056b3;
+    }
+  </style>
 </head>
 <body>
-  <h2>Click below to download INTERLSK match Inventory list</h2>
-  <a href="InterLSK Inventory.xlsx" download>Download</a>
- </body> 
+  <div class="container">
+    <h1>InterLSK Inventory Sheet</h1>
+    <p>Click the button below to download the latest cricket kit inventory in Excel format.</p>
+    <a href="InterLSK%20Inventory.xlsx" download class="download-button">
+      📥 Download Excel Sheet
+    </a>
+  </div>
+</body>
 </html>
